@@ -1,0 +1,36 @@
+doctype html 
+html    
+    head 
+        title Partha's Dance Academy
+        style 
+            include ../static/style.css 
+            include ../static/phone.css 
+    body 
+        nav 
+            span.navbar #[a(href="/") Home] 
+            span.navbar #[a(href="/") About us]
+            span.navbar #[a(href="/") Services]
+            span.navbar #[a(href="/") Class info ]
+            span.navbar #[a(href="/") Contact]
+
+        section.container 
+            h1 Welcome to dance academy 
+            p Eat,sleep,dance and repeat
+
+        div#cardsection 
+            h1 Our mission
+            section.cardinfo
+                div#card1.cards
+                    h3 Dance the way you like 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi!
+                div#card2.cards
+                    h3 Dance perfection 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi!
+                div#card3.cards
+                    h3 Expert teaching
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi!
+        
+        footer  
+            | &copy; All Righths Reserved
+        script 
+            include ../static/index.js 

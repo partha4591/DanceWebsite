@@ -1,0 +1,15 @@
+/* FOR PHONE SETTINGS */
+@media only screen and (min-width: 360px) and (max-width: 1130px){
+    .cards p{
+        margin: 0;
+    }
+    .container::before{
+        height: 100vh;
+    }
+    span > a{
+        padding: 0;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
